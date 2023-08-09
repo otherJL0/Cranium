@@ -1,7 +1,7 @@
-#include "../src/std_includes.h"
-#include "../src/matrix.h"
-#include "../src/function.h"
-#include "../src/layer.h"
+#include "std_includes.h"
+#include "matrix.h"
+#include "function.h"
+#include "layer.h"
 
 int main(){
     // test creation

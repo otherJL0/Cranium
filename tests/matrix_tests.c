@@ -1,5 +1,5 @@
-#include "../src/std_includes.h"
-#include "../src/matrix.h"
+#include "std_includes.h"
+#include "matrix.h"
 
 int main(){
     float* A_data = (float*)malloc(sizeof(float*) * 3 * 3);
