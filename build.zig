@@ -22,9 +22,9 @@ pub fn build(b: *std.Build) void {
             "-Wno-unused-function",
         } });
         exe.linkSystemLibrary("m");
-        b.installArtifact(exe);
+        exe.addIncludePath(.{ .path = "src" });
+
         const run_cmd = b.addRunArtifact(exe);
-        run_cmd.step.dependOn(b.getInstallStep());
         const test_step = b.step(test_name, "Run " ++ test_name);
         test_step.dependOn(&run_cmd.step);
         all_tests_step.dependOn(&run_cmd.step);

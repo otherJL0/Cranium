@@ -1,8 +1,8 @@
-#include "../src/std_includes.h"
-#include "../src/matrix.h"
-#include "../src/function.h"
-#include "../src/layer.h"
-#include "../src/network.h"
+#include "std_includes.h"
+#include "matrix.h"
+#include "function.h"
+#include "layer.h"
+#include "network.h"
 
 int main(){
     // test network creation

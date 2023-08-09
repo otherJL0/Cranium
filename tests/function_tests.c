@@ -1,6 +1,6 @@
-#include "../src/std_includes.h"
-#include "../src/matrix.h"
-#include "../src/function.h"
+#include "std_includes.h"
+#include "matrix.h"
+#include "function.h"
 
 int main(){
     // test sigmoid
