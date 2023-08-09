@@ -1,0 +1,5 @@
+-lm
+-Wall
+-Wno-unused-function
+-03
+-Isrc
