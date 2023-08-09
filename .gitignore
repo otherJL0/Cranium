@@ -34,3 +34,6 @@
 
 *.pkl
 .vscode/
+
+zig-out/
+zig-cache/
